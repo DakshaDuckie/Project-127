@@ -1,7 +1,8 @@
 var song1 = ""
 var song2 = "";
 function preload(){
-
+    song1 = loadSound("song#1.mp3");
+    song2 = loadSound("song#2.mp3");
 }
 
 function setup(){
